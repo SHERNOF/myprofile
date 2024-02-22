@@ -1,0 +1,54 @@
+.profile {
+  /* border: 1px solid green; */
+  width: 40%;
+  height: 90%;
+  position: relative;
+  background-color: #31313a;
+}
+.profile::before {
+  content: "";
+  width: 40%;
+  height: 90%;
+  position: absolute;
+  /* border: 1px solid #fff; */
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  background-color: #31315a;
+}
+.row1,
+.row2 {
+  height: 50%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.row1 {
+  background-image: url("../../../public/pics/beach.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.frame {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 1px solid rgb(97, 96, 96);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+img {
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
