@@ -20,6 +20,9 @@
   border: 1px solid blue;
   width: 5%;
   height: 30rem;
+  background-color: #31313a;
+  margin-right: 0.5rem;
+  top: 30rem;
 }
 .profile {
   /* border: 1px solid green; */
@@ -34,6 +37,7 @@
   height: 90%;
   position: absolute;
   /* border: 1px solid #fff; */
+  z-index: -1;
   width: 100%;
   height: 100%;
   margin-top: -1rem;
@@ -41,7 +45,8 @@
   background-color: #31315a;
 }
 .details {
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
+  background-color: #31313a;
   width: 55%;
-  height: 60%;
+  height: 85%;
 }
